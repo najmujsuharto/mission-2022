@@ -9,7 +9,7 @@ img {
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 /* first section CSS starts */
 .stay-focused h1 {
@@ -56,6 +56,9 @@ p {
   color: white;
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
+}
+.lin-button {
+  /* padding-left: 20px; */
 }
 /* first section CSS ends */
 
@@ -146,8 +149,13 @@ textarea {
   height: 200px;
 }
 .contact {
-  background-image: url(images/shapes/Frame\ 57.jpg);
-  background-size: cover;
+  background-color: aliceblue;
+}
+.contact h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  padding-top: 20px;
 }
 .contact img {
   width: 100%;
