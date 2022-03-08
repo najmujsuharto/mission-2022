@@ -1,0 +1,155 @@
+/* common css */
+.row {
+  display: flex;
+}
+img {
+  width: 70%;
+}
+.containerC {
+  width: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+/* first section CSS starts */
+.stay-focused h1 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Yeseva One", cursive;
+  font-size: 60px;
+  font-weight: 400px;
+  line-height: 80px;
+}
+#fency-heading {
+  padding-left: 1rem;
+  border-left: 4px solid #ff5959;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-family: "Yeseva One", cursive;
+  line-height: 28px;
+  font-weight: 300;
+}
+.first-section img {
+  width: 100%;
+  max-width: 426px;
+  display: block;
+  margin-left: auto;
+  /* max-height: 420px; */
+}
+
+.flexible-container {
+  display: flex;
+  margin-bottom: 115px;
+}
+.half-width {
+  width: 50%;
+  /* margin-left: 100px; */
+}
+.orange-colour {
+  color: orange;
+}
+.link-button {
+  margin-top: 26px;
+  padding: 12px 37.5px;
+  background-color: #ff5959;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
+/* first section CSS ends */
+
+/* second secntion starts */
+.mission-2022 h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  line-height: 70px;
+}
+.mission-item {
+  background-color: whitesmoke;
+}
+.mission-item-two {
+  background-color: #ff59591a;
+}
+.mission-item-three {
+  background-color: #fff4d6;
+}
+.mission-item img {
+  width: 50%;
+}
+.colC-4 {
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+.row .colC-4:first-child {
+  padding-left: 0;
+}
+
+.row .colC-4:last-child {
+  padding-right: 0;
+}
+.mission-item {
+  padding: 25px 32px 45px 32px;
+  border-radius: 26px;
+}
+
+/* second secntion ends */
+
+/* third section css starts */
+.develop-img {
+  width: 430px;
+}
+.develop-text {
+  width: 698px;
+}
+.develop-text h2 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+/* third section css ends */
+
+/* footer css starts */
+.footer-text {
+  padding: 35px 0;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: white;
+  background-color: black;
+}
+.footer-text p {
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+}
+.red-color {
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+}
+
+/* contact form css starts */
+.form {
+  text-align: center;
+}
+input {
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 50%;
+}
+textarea {
+  margin: 10px 0;
+  padding: 10px 20px;
+  width: 50%;
+  height: 200px;
+}
+.contact {
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-size: cover;
+}
+.contact img {
+  width: 100%;
+}
+/* contact form css ends */
